@@ -55,7 +55,7 @@ def salvar_no_banco(estado, valor):
         print(f"Erro ao salvar {estado}: {e}")
 
 # Estados para atualizar
-ESTADOS = ['SP', 'MG', 'RJ', 'BA', 'RS', 'SC', 'PR']
+ESTADOS = ['AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MT', 'MS', 'MG', 'PA', 'PB', 'PR', 'PE', 'PI', 'RJ', 'RN', 'RS', 'RO', 'RR', 'SC', 'SP', 'SE', 'TO']
 
 # Executar
 print("Iniciando atualização...")
