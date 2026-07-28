@@ -4,7 +4,7 @@ import psycopg2
 from datetime import datetime, timedelta
 
 # Credenciais do Supabase
-DB_URL = "postgresql://postgres:JvaB7vd9HEWJo5fj@db.dnqhcrcnibuasnczzcmh.supabase.co:5432/postgres"
+DB_URL = "postgresql://postgres.dnqhcrcnibuasnczzcmh:JvaB7vd9HEWJo5fj@aws-1-us-west-2.pooler.supabase.com:5432/postgres"
 
 def buscar_diesel(estado):
     """Busca preço de diesel do site"""
